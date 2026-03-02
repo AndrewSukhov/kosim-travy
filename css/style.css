@@ -126,6 +126,7 @@ button { font-family: var(--font); }
   color: var(--green);
   letter-spacing: 0.4px;
   text-transform: lowercase;
+  white-space: nowrap;
 }
 
 /* --- Navigation --- */

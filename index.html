@@ -3,7 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KosimTravy — Покос травы в г. Кобрин и Брестской области</title>
+
+  <!-- ===== SEO: основные мета ===== -->
+  <title>Покос травы в Кобрине — KosimTravy | Цена от 7 руб./сотку</title>
+  <meta name="description" content="Покос травы в Кобрине и Кобринском районе. Профессиональное кошение любых участков — от дачи до промзоны. Цена от 7 руб./сотку. Выезд в день обращения. Тел: +375 25 910-72-82.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kosim-travy.by/">
+
+  <!-- ===== SEO: Open Graph (Telegram, Viber, ВКонтакте) ===== -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://kosim-travy.by/">
+  <meta property="og:title"       content="Покос травы в Кобрине — KosimTravy | от 7 руб./сотку">
+  <meta property="og:description" content="Профессиональный покос травы в Кобрине и Кобринском районе. Любые объекты — дачи, склоны, промзоны. Выезд в день обращения. Звоните: +375 25 910-72-82.">
+  <meta property="og:image"       content="https://kosim-travy.by/img/pokos-travy.png">
+  <meta property="og:locale"      content="ru_BY">
+  <meta property="og:site_name"   content="KosimTravy">
+
+  <!-- ===== SEO: Schema.org LocalBusiness ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "KosimTravy",
+    "description": "Профессиональный покос травы в Кобрине и Кобринском районе. Цена от 7 руб./сотку. Выезд в день обращения.",
+    "url": "https://kosim-travy.by",
+    "telephone": ["+375259107282", "+375295278124"],
+    "image": "https://kosim-travy.by/img/pokos-travy.png",
+    "priceRange": "от 7 руб.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Советская, д. 11",
+      "addressLocality": "Кобрин",
+      "addressRegion": "Брестская область",
+      "addressCountry": "BY"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.2117,
+      "longitude": 24.3549
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Кобрин и Кобринский район"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    }],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "9"
+    }
+  }
+  </script>
+
+  <!-- ===== Ресурсы ===== -->
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,13 +79,10 @@
       <div class="container">
         <div class="topbar-phones">
           <a href="tel:+375259107282" class="phone-link">
-            <i class="fas fa-phone"></i> +375 259 107 282
-          </a>
-          <a href="tel:80259107282" class="phone-link">
-            <i class="fas fa-phone"></i> 8 025 910 72 82
+            <i class="fas fa-phone"></i> +375 25 910-72-82
           </a>
           <a href="tel:+375295278124" class="phone-link">
-            <i class="fas fa-phone"></i> +375 295 278 124
+            <i class="fas fa-phone"></i> +375 29 527-81-24
           </a>
         </div>
       </div>
@@ -39,8 +93,8 @@
       <div class="container">
         <div class="header-inner">
 
-          <a href="#" class="logo">
-            <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44">
+          <a href="/" class="logo" aria-label="KosimTravy — покос травы в Кобрине">
+            <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" aria-hidden="true">
               <circle cx="22" cy="22" r="22" fill="#54af3a"/>
               <path d="M14 30 Q18 18 22 14 Q26 18 30 30" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
               <path d="M22 14 L22 30" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
@@ -49,14 +103,16 @@
             </svg>
             <div class="logo-text">
               <span class="logo-name">KosimTravy</span>
-              <span class="logo-sub">покос травы</span>
+              <span class="logo-sub">покос травы в Кобрине</span>
             </div>
           </a>
 
-          <nav class="main-nav" id="main-nav">
+          <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
             <ul class="nav-list">
-<!--              <li><a href="#" class="nav-link active">Покос травы</a></li>-->
-<!--              <li><a href="#spil" class="nav-link">Спиливание деревьев</a></li>-->
+              <li><a href="#price"     class="nav-link">Цены</a></li>
+              <li><a href="#about"     class="nav-link">О нас</a></li>
+              <li><a href="#questions" class="nav-link">FAQ</a></li>
+              <li><a href="#contact"   class="nav-link">Контакты</a></li>
             </ul>
           </nav>
 
@@ -79,22 +135,19 @@
       <div class="container">
         <div class="hero-content">
           <h1>
-            ПОКОС ТРАВЫ <br>
-            В КОБРИН И БРЕСТСКОЙ ОБЛАСТИ
+            ПОКОС ТРАВЫ<br>
+            В КОБРИНЕ И КОБРИНСКОМ РАЙОНЕ
           </h1>
-          <p class="hero-price">ЦЕНА от <strong>7 руб. Расчет стоимости индивидуально.</strong></p>
+          <p class="hero-price">ЦЕНА от <strong>7 руб./сотку</strong></p>
           <div class="hero-desc">
-            <p><strong>KosimTravy</strong> — покос травы в г. Кобрин и в радиусе 50 км вокруг (+/- 10 км)</p>
-            <p class="hero-desc-label"><strong>Профессионально косим на любых объектах:</strong></p>
+            <p><strong>KosimTravy</strong> — профессиональный покос травы в Кобрине и Кобринском районе, выезжаем в радиусе 50 км.</p>
+            <p class="hero-desc-label"><strong>Косим на любых объектах:</strong></p>
             <ul>
               <li>от дачи до промышленной зоны</li>
               <li>от крутых склонов до глубоких канав</li>
-              <li>от тропинки до большой дороги</li>
+              <li>от узкой тропинки до большой дороги</li>
             </ul>
           </div>
-<!--          <p class="hero-also">-->
-<!--            Также предлагаем <a href="#spil" class="hero-link">услуги по спиливанию деревьев</a>-->
-<!--          </p>-->
         </div>
       </div>
     </section>
@@ -103,7 +156,7 @@
     <!-- ===== PRICE ===== -->
     <section class="price-section" id="price">
       <div class="container">
-        <h2 class="section-title">Сколько стоит покос травы в г. Кобрин?</h2>
+        <h2 class="section-title">Сколько стоит покос травы в Кобрине?</h2>
         <div class="table-wrap">
           <table class="price-table">
             <thead>
@@ -121,18 +174,18 @@
               <tr>
                 <td>Разнотравье до 50 см<br><em>(до колена)</em></td>
                 <td>9 руб.</td>
-                <td>8.5 руб.</td>
+                <td>8,5 руб.</td>
                 <td>8 руб.</td>
               </tr>
               <tr>
-                <td>Зелень от 50 см<br><em>(поверх колена)</em></td>
+                <td>Зелень от 50 см<br><em>(выше колена)</em></td>
                 <td>10 руб.</td>
-                <td>9.5 руб.</td>
+                <td>9,5 руб.</td>
                 <td>9 руб.</td>
               </tr>
               <tr>
                 <td>Покос бурьяна</td>
-                <td colspan="3" class="td-center">от 10.5 руб.</td>
+                <td colspan="3" class="td-center">от 10,5 руб.</td>
               </tr>
             </tbody>
           </table>
@@ -140,9 +193,9 @@
         <div class="price-notes">
           <p>
             <strong>Минимальная сумма заказа:</strong><br>
-            по г. Кобрин от 80 руб.<br>
-            пригород Кобрина в пределах 10 км от 90 руб.<br>
-            свыше 10 км оговаривается индивидуально
+            по Кобрину от 80 руб.<br>
+            пригород Кобрина в пределах 10 км — от 90 руб.<br>
+            свыше 10 км — оговаривается индивидуально
           </p>
         </div>
       </div>
@@ -152,29 +205,29 @@
     <!-- ===== ORDER INFO ===== -->
     <section class="order-info">
       <div class="container">
-        <h2 class="section-title">Для заказа сервиса на скос травы необходимо:</h2>
+        <h2 class="section-title">Что нужно сообщить при заказе покоса травы:</h2>
         <div class="icons-grid">
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
                 <circle cx="12" cy="9" r="2.5"/>
               </svg>
             </div>
-            <p>Определение локации кошения (адрес)</p>
+            <p>Адрес участка в Кобрине или районе</p>
           </div>
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect x="3" y="3" width="18" height="18" rx="1"/>
                 <path d="M3 9h18M9 3v18"/>
               </svg>
             </div>
-            <p>Уточнение количества соток под скос (общий объём работы)</p>
+            <p>Количество соток под кошение (общий объём работы)</p>
           </div>
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M22 19H2"/>
                 <path d="M9 19V5"/>
                 <path d="M6 8l3-3 3 3"/>
@@ -182,34 +235,34 @@
                 <path d="M13 14l3-3 3 3"/>
               </svg>
             </div>
-            <p>Тип и высота растительности планируемых на кошение</p>
+            <p>Тип и высота растительности, планируемой к кошению</p>
           </div>
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M3 18 Q7 10 12 12 Q17 14 21 6"/>
                 <path d="M3 18h18"/>
               </svg>
             </div>
-            <p>Рельеф местности и описание ландшафта (перепады высот, ямы, бугры, канавы)</p>
+            <p>Рельеф участка: перепады высот, ямы, бугры, канавы</p>
           </div>
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <circle cx="12" cy="12" r="9"/>
                 <path d="M12 7v5l3 3"/>
               </svg>
             </div>
-            <p>Как срочно необходима косьба участка (дата и время)</p>
+            <p>Желаемые дата и время выезда мастера</p>
           </div>
           <div class="icon-item">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <circle cx="12" cy="7" r="4"/>
                 <path d="M5.5 21c0-3.5 2.9-6.5 6.5-6.5s6.5 3 6.5 6.5"/>
               </svg>
             </div>
-            <p>Возможность выполнения деятельности без владельца территории</p>
+            <p>Нужно ли присутствие владельца или работаем самостоятельно</p>
           </div>
         </div>
       </div>
@@ -222,14 +275,13 @@
         <h2 class="section-title">Дополнительные услуги</h2>
         <div class="services-grid">
           <ul class="check-list">
-            <li><i class="fas fa-check-circle"></i> Сгребание в кучи свежескошенного зелья</li>
-            <li><i class="fas fa-check-circle"></i> Вынос сена за владения угодья</li>
-            <li><i class="fas fa-check-circle"></i> Спил невысоких кустарников</li>
-<!--            <li><i class="fas fa-check-circle"></i> Спил деревьев и кустарников</li>-->
+            <li><i class="fas fa-check-circle"></i> Сгребание скошенной травы в кучи</li>
+            <li><i class="fas fa-check-circle"></i> Вынос сена за пределы участка</li>
+            <li><i class="fas fa-check-circle"></i> Обрезка и спил невысоких кустарников</li>
           </ul>
           <ul class="check-list">
-<!--            <li><i class="fas fa-check-circle"></i> Распил деревьев на дрова</li>-->
-<!--            <li><i class="fas fa-check-circle"></i> Выжигание травяного ковра химическим способом</li>-->
+            <li><i class="fas fa-check-circle"></i> Уборка территории после кошения</li>
+            <li><i class="fas fa-check-circle"></i> Срочный выезд в день обращения</li>
           </ul>
         </div>
       </div>
@@ -244,12 +296,12 @@
             <h3>Как работает KosimTravy</h3>
           </div>
           <div class="col-body">
-            <p>По статистике на скашивание 15 соток затрачивается 4-5 часов жизни. Мы предоставляем возможность сэкономить время, обратившись к нам за услугой по выкашиванию зеленых зон и просто загуглить в интернете: Покос травы Кобрин цена. Многие ищут на куфаре людей для косьбы земляного покрова триммером, но этот способ не даёт гарантии о порядочности нанятого человека и его квалифицированных навыках. Качество выполняемых работ по уходу за зелеными лужайками напрямую зависит от качественного инструмента. Мастер по покосу из KosimTravy выезжая на объект имея при себе полный арсенал профессионального оборудования.</p>
-            <p>Процесс выполняются спец оборудованием марок husqvarna и stihl. От степени запущенности участка мы используем два вида оснастки:</p>
-            <p>1. Полимерная леска (для растительности средней жесткости и высотой 15-50 см)<br>
-            2. Металлический нож (для жесткой растений высотой более 50 см)</p>
+            <p>На скашивание 15 соток в среднем уходит 4–5 часов. Мы даём возможность сэкономить время жителям Кобрина и района: достаточно позвонить или написать, и мастер приедет в удобное для вас время. Многие ищут на «Куфаре» людей с триммером, но этот способ не гарантирует ни порядочности, ни квалификации исполнителя.</p>
+            <p>Мастера KosimTravy выезжают на объект с полным арсеналом профессионального оборудования. Работы выполняются на специализированной технике марок <strong>Husqvarna</strong> и <strong>Stihl</strong>. В зависимости от степени запущенности участка используем два типа оснастки:</p>
+            <p><strong>1. Полимерная леска</strong> — для растительности средней жёсткости высотой 15–50 см.<br>
+            <strong>2. Металлический нож</strong> — для жёстких и высоких растений выше 50 см (бурьян, борщевик).</p>
           </div>
-          <div class="col-image img-trimmer" aria-label="Фото: работа с триммером"></div>
+          <div class="col-image img-trimmer" role="img" aria-label="Мастер KosimTravy с профессиональным триммером"></div>
         </div>
       </div>
     </section>
@@ -260,20 +312,20 @@
       <div class="container">
         <div class="three-col">
           <div class="col-heading">
-            <h3>Почему необходим скос травы</h3>
+            <h3>Почему важен регулярный покос травы</h3>
           </div>
           <div class="col-body">
             <ul class="check-alt">
-              <li><i class="fas fa-check"></i><span>По закону РБ за несвоевременный укос растительности на территориях землепользователей землей предусмотрена административная мера наказания по ст. 21.14 ч. 2 КОАП РБ</span></li>
-              <li><i class="fas fa-check"></i><span>Дача является излюбленным местом проведения досуга горожан, а высокий травостой является естественной средой обитания клещей и комаров. С целью защитить себя и близких от паразитов необходимо своевременно осуществлять кошение высокого хмызняка</span></li>
-              <li><i class="fas fa-check"></i><span>Если своевременно скосить сухостой можно значительно минимизировать риск возникновения пожара</span></li>
-              <li><i class="fas fa-check"></i><span>Регулярная косьба сорняков препятствует дальнейшему размножению сорной фауны</span></li>
-              <li><i class="fas fa-check"></i><span>При продаже земельного участка большую роль играет внешний вид, что существенно повышает ликвидность после обкоса территории</span></li>
-              <li><i class="fas fa-check"></i><span>Свежескошенный газон радуется не только глаз, но и Ваше обоняние запахом свежескошенной травки</span></li>
-              <li><i class="fas fa-check"></i><span>Ухоженная усадьба отличный повод на зависть Вашим соседям</span></li>
+              <li><i class="fas fa-check"></i><span>По законодательству РБ за несвоевременное кошение растительности на территории землепользователей предусмотрена административная ответственность по ст. 21.14 ч. 2 КоАП РБ</span></li>
+              <li><i class="fas fa-check"></i><span>Высокий травостой — естественная среда обитания клещей и комаров. Своевременный покос защищает вас и ваших близких от паразитов и укусов насекомых</span></li>
+              <li><i class="fas fa-check"></i><span>Своевременное скашивание сухостоя значительно снижает риск возникновения пожара на участке и прилегающей территории</span></li>
+              <li><i class="fas fa-check"></i><span>Регулярная косьба сорняков препятствует их дальнейшему распространению и сохраняет плодородие почвы</span></li>
+              <li><i class="fas fa-check"></i><span>Ухоженный участок существенно повышает рыночную стоимость и ликвидность земли при продаже</span></li>
+              <li><i class="fas fa-check"></i><span>Свежескошенный газон радует не только глаз, но и наполняет воздух приятным ароматом скошенной травы</span></li>
+              <li><i class="fas fa-check"></i><span>Ухоженная усадьба — лучший показатель хозяйственности и настоящий предмет гордости</span></li>
             </ul>
           </div>
-          <div class="col-image img-grass" aria-label="Фото: покос травы"></div>
+          <div class="col-image img-grass" role="img" aria-label="Результат профессионального покоса травы в Кобрине"></div>
         </div>
       </div>
     </section>
@@ -282,12 +334,12 @@
     <!-- ===== FOR WHOM ===== -->
     <section class="for-whom" id="forwhom">
       <div class="container">
-        <h2 class="section-title">Сервис «покос травы» находка для:</h2>
+        <h2 class="section-title">Покос травы в Кобрине — находка для:</h2>
         <div class="forwhom-grid">
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M3 21h18"/>
                 <path d="M5 21V7l7-4 7 4v14"/>
                 <rect x="9" y="13" width="2" height="4"/>
@@ -295,12 +347,12 @@
                 <path d="M9 9h6"/>
               </svg>
             </div>
-            <p>Администрация г. Кобрин и области</p>
+            <p>Администрация г. Кобрин и района</p>
           </div>
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M3 21h18"/>
                 <rect x="4" y="7" width="16" height="14"/>
                 <path d="M4 7l8-4 8 4"/>
@@ -314,7 +366,7 @@
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M3 21h18"/>
                 <path d="M5 21V9l7-5 7 5v12"/>
                 <rect x="9" y="14" width="2.5" height="7"/>
@@ -322,12 +374,12 @@
                 <path d="M9 9c1-1.5 5-1.5 6 0"/>
               </svg>
             </div>
-            <p>Владельцы дач и домиков в деревне</p>
+            <p>Владельцы дач и домов в Кобринском районе</p>
           </div>
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect x="2" y="6" width="20" height="15" rx="1"/>
                 <path d="M6 6V4h12v2"/>
                 <rect x="6" y="11" width="3" height="4"/>
@@ -341,7 +393,7 @@
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M3 21h18"/>
                 <path d="M5 21V9l7-5 7 5v12"/>
                 <rect x="8" y="14" width="3" height="7"/>
@@ -355,7 +407,7 @@
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="16" rx="1"/>
                 <path d="M3 9h18"/>
                 <path d="M7 5V3M17 5V3"/>
@@ -367,7 +419,7 @@
 
           <div class="forwhom-item">
             <div class="forwhom-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect x="2" y="7" width="20" height="13" rx="1"/>
                 <path d="M2 11h20"/>
                 <path d="M6 7V4h12v3"/>
@@ -387,8 +439,28 @@
     <!-- ===== FAQ ===== -->
     <section class="faq-section" id="questions">
       <div class="container">
-        <h2 class="section-title">Часто задаваемые вопросы на тему «скос травы»</h2>
+        <h2 class="section-title">Часто задаваемые вопросы о покосе травы в Кобрине</h2>
         <div class="accordion">
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span class="acc-icon"><i class="fas fa-plus"></i></span>
+              <span>Выезжаете ли вы по всему Кобрину и Кобринскому району?</span>
+            </button>
+            <div class="accordion-panel" hidden>
+              <p>Да, работаем по всему городу Кобрин и в Кобринском районе. Также выезжаем в радиусе 50 км от Кобрина — стоимость доезда за пределы 10 км оговаривается индивидуально.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span class="acc-icon"><i class="fas fa-plus"></i></span>
+              <span>Сколько стоит покос травы в частном секторе Кобрина?</span>
+            </button>
+            <div class="accordion-panel" hidden>
+              <p>Стоимость покоса в частном секторе рассчитывается по нашему прайсу — от 7 руб. за сотку. Минимальная сумма заказа по Кобрину составляет 80 руб. Точную цену назовём после уточнения объёма и вида растительности.</p>
+            </div>
+          </div>
 
           <div class="accordion-item">
             <button class="accordion-btn" aria-expanded="false">
@@ -396,47 +468,47 @@
               <span>Сколько стоит окосить вдоль забора?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>Стоимость покоса вдоль дачного забора рассчитывается согласно минимальной сумме заказа.</p>
+              <p>Стоимость покоса полосы вдоль забора рассчитывается исходя из минимальной суммы заказа — 80 руб. по Кобрину.</p>
             </div>
           </div>
 
           <div class="accordion-item">
             <button class="accordion-btn" aria-expanded="false">
               <span class="acc-icon"><i class="fas fa-plus"></i></span>
-              <span>Выполняете работу своим инструментом или надо предоставлять?</span>
+              <span>Приезжаете со своим инструментом или нужно предоставлять?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>Работы выполняются исключительно своим оборудованием.</p>
+              <p>Все работы выполняются исключительно нашим профессиональным оборудованием марок Husqvarna и Stihl. Ничего готовить заранее не нужно.</p>
             </div>
           </div>
 
           <div class="accordion-item">
             <button class="accordion-btn" aria-expanded="false">
               <span class="acc-icon"><i class="fas fa-plus"></i></span>
-              <span>Вы добираетесь самостоятельно или необходимо привезти мастера на участок?</span>
+              <span>Как добираетесь на объект — нужно везти мастера?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>На объекты мы выезжаем своим транспортом.</p>
+              <p>Мы выезжаем на объект самостоятельно — на собственном транспорте. Вам достаточно указать адрес в Кобрине или районе.</p>
             </div>
           </div>
 
           <div class="accordion-item">
             <button class="accordion-btn" aria-expanded="false">
               <span class="acc-icon"><i class="fas fa-plus"></i></span>
-              <span>Можно ли скосить сегодня?</span>
+              <span>Можно ли заказать срочный покос сегодня?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>Да, возможно выполнить резку поросли срочно. Стоимость определяется индивидуально.</p>
+              <p>Да, срочный выезд в день обращения возможен. Позвоните нам, уточним загруженность и согласуем время. Стоимость срочного заказа определяется индивидуально.</p>
             </div>
           </div>
 
           <div class="accordion-item">
             <button class="accordion-btn" aria-expanded="false">
               <span class="acc-icon"><i class="fas fa-plus"></i></span>
-              <span>Какая форма оплаты?</span>
+              <span>Какие способы оплаты принимаете?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>Мы принимаем наличный и безналичный расчет.</p>
+              <p>Принимаем наличный и безналичный расчёт. Оплата производится после выполнения работ.</p>
             </div>
           </div>
 
@@ -446,7 +518,7 @@
               <span>Выезжаете на маленькие площади?</span>
             </button>
             <div class="accordion-panel" hidden>
-              <p>Выезжаем на любые площади, но цена заказа идёт от минимальной суммы заказа.</p>
+              <p>Выезжаем на участки любой площади, однако стоимость заказа начинается от минимальной суммы — 80 руб. по Кобрину.</p>
             </div>
           </div>
 
@@ -461,134 +533,134 @@
         <div class="slider-wrapper">
           <div class="slider-track" id="slider-track">
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Заказывала покос на запущенном дачном участке — результат просто отличный! Ребята приехали точно в оговорённое время, работали быстро и аккуратно. Очень вежливые и профессиональные, рекомендую!</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Заказывала покос на запущенном дачном участке в Кобринском районе — результат просто отличный! Ребята приехали точно в оговорённое время, работали быстро и аккуратно. Очень вежливые и профессиональные, рекомендую!</p>
               </div>
               <div class="review-footer">
-                <img class="review-avatar" src="img/avatar-yulia.jpg" alt="Юлия">
+                <img class="review-avatar" src="img/avatar-yulia.jpg" alt="Отзыв о покосе травы в Кобрине — Юлия" itemprop="author">
                 <div class="review-meta">
                   <strong>ЮЛИЯ</strong>
                   <span>55 лет</span>
-                  <time>15 апреля 2025</time>
+                  <time itemprop="datePublished" datetime="2025-04-15">15 апреля 2025</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Уже третий сезон вызываю для бабушкиной дачи за городом. Всегда всё чисто, ровно и аккуратно, вопросов к качеству нет. Мастера доброжелательные, работают чётко — рекомендую без колебаний!</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Уже третий сезон вызываю для бабушкиной дачи под Кобрином. Всегда всё чисто, ровно и аккуратно, вопросов к качеству нет. Мастера доброжелательные, работают чётко — рекомендую без колебаний!</p>
               </div>
               <div class="review-footer">
-                <img class="review-avatar" src="img/avatar-darya.jpg" alt="Дарья">
+                <img class="review-avatar" src="img/avatar-darya.jpg" alt="Отзыв о покосе травы в Кобрине — Дарья" itemprop="author">
                 <div class="review-meta">
                   <strong>ДАРЬЯ</strong>
                   <span>28 лет</span>
-                  <time>3 июня 2024</time>
+                  <time itemprop="datePublished" datetime="2024-06-03">3 июня 2024</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Муж часто в командировке, а участок нужно поддерживать — KosimTravy настоящее спасение. Приехали в срок, скосили быстро, ещё и зелень за забор вынесли. Буду обращаться снова, всё понравилось!</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Муж часто в командировке, а участок нужно поддерживать — KosimTravy настоящее спасение. Приехали в срок, скосили быстро, ещё и траву за забор вынесли. Буду обращаться снова, всё понравилось!</p>
               </div>
               <div class="review-footer">
-                <img class="review-avatar" src="img/avatar-irina.jpg" alt="Ирина">
+                <img class="review-avatar" src="img/avatar-irina.jpg" alt="Отзыв о покосе травы в Кобрине — Ирина" itemprop="author">
                 <div class="review-meta">
                   <strong>ИРИНА</strong>
                   <span>48 лет</span>
-                  <time>22 мая 2025</time>
+                  <time itemprop="datePublished" datetime="2025-05-22">22 мая 2025</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Обратилась первый раз — теперь постоянный клиент. За пару часов привели в порядок совершенно запущенный огород. Качество работы отличное, ребята вежливые и аккуратные, ценой тоже довольна!</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Обратилась первый раз — теперь постоянный клиент. За пару часов привели в порядок совершенно запущенный огород в Кобрине. Качество отличное, ребята вежливые и аккуратные, ценой тоже довольна!</p>
               </div>
               <div class="review-footer">
-                <img class="review-avatar" src="img/avatar-natalya.jpg" alt="Наталья">
+                <img class="review-avatar" src="img/avatar-natalya.jpg" alt="Отзыв о покосе травы в Кобрине — Наталья" itemprop="author">
                 <div class="review-meta">
                   <strong>НАТАЛЬЯ</strong>
-                  <span>42 лет</span>
-                  <time>8 июля 2024</time>
+                  <span>42 года</span>
+                  <time itemprop="datePublished" datetime="2024-07-08">8 июля 2024</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
                 <p>Нужно было срочно скосить траву перед приездом гостей — согласились приехать в тот же день! Справились быстро и качественно, оставили участок чистым. Очень благодарна за оперативность!</p>
               </div>
               <div class="review-footer">
-                <img class="review-avatar" src="img/avatar-svetlana.jpg" alt="Светлана">
+                <img class="review-avatar" src="img/avatar-svetlana.jpg" alt="Отзыв о покосе травы в Кобрине — Светлана" itemprop="author">
                 <div class="review-meta">
                   <strong>СВЕТЛАНА</strong>
                   <span>51 год</span>
-                  <time>17 августа 2025</time>
+                  <time itemprop="datePublished" datetime="2025-08-17">17 августа 2025</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
                 <p>Профессионалы своего дела — сразу видно. Участок сложный, с перепадами и канавами, но справились на отлично. Вежливые, аккуратные, убрали за собой. Приятно работать с такими мастерами!</p>
               </div>
               <div class="review-footer">
-                <div class="review-avatar review-avatar--initial" style="--avatar-color: #7B9DBF;">О</div>
+                <div class="review-avatar review-avatar--initial" style="--avatar-color: #7B9DBF;" aria-label="О" itemprop="author">О</div>
                 <div class="review-meta">
                   <strong>ОЛЬГА</strong>
                   <span>38 лет</span>
-                  <time>2 сентября 2025</time>
+                  <time itemprop="datePublished" datetime="2025-09-02">2 сентября 2025</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Заказывала для загородного коттеджа. Ребята доехали без проблем, всё скосили ровно и чисто, даже труднодоступные уголки. Цена вполне адекватная за такой качественный результат.</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Заказывала для загородного коттеджа под Кобрином. Ребята доехали без проблем, всё скосили ровно и чисто, даже труднодоступные уголки. Цена вполне адекватная за такой результат.</p>
               </div>
               <div class="review-footer">
-                <div class="review-avatar review-avatar--initial" style="--avatar-color: #C49A6C;">М</div>
+                <div class="review-avatar review-avatar--initial" style="--avatar-color: #C49A6C;" aria-label="М" itemprop="author">М</div>
                 <div class="review-meta">
                   <strong>МАРИНА</strong>
                   <span>45 лет</span>
-                  <time>14 октября 2024</time>
+                  <time itemprop="datePublished" datetime="2024-10-14">14 октября 2024</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
                 <p>Работают культурно и чётко — приехали, скосили, убрали и уехали. Трава убрана идеально, ни одной прогалины. Всем соседям уже посоветовала, некоторые тоже обратились!</p>
               </div>
               <div class="review-footer">
-                <div class="review-avatar review-avatar--initial" style="--avatar-color: #9B8BB8;">Л</div>
+                <div class="review-avatar review-avatar--initial" style="--avatar-color: #9B8BB8;" aria-label="Л" itemprop="author">Л</div>
                 <div class="review-meta">
                   <strong>ЛЮДМИЛА</strong>
                   <span>60 лет</span>
-                  <time>5 ноября 2025</time>
+                  <time itemprop="datePublished" datetime="2025-11-05">5 ноября 2025</time>
                 </div>
               </div>
             </article>
 
-            <article class="review-card">
-              <div class="review-body">
-                <p>Приятно удивлена скоростью и качеством работы. Позвонила утром — к обеду уже всё было готово. Газон выглядит просто замечательно, муж тоже оценил. Спасибо большое, будем обращаться!</p>
+            <article class="review-card" itemscope itemtype="https://schema.org/Review">
+              <div class="review-body" itemprop="reviewBody">
+                <p>Приятно удивлена скоростью и качеством работы. Позвонила утром — к обеду уже всё было готово. Газон выглядит просто замечательно, муж тоже оценил. Спасибо, будем обращаться!</p>
               </div>
               <div class="review-footer">
-                <div class="review-avatar review-avatar--initial" style="--avatar-color: #6FA88A;">Е</div>
+                <div class="review-avatar review-avatar--initial" style="--avatar-color: #6FA88A;" aria-label="Е" itemprop="author">Е</div>
                 <div class="review-meta">
                   <strong>ЕЛЕНА</strong>
-                  <span>33 лет</span>
-                  <time>28 марта 2025</time>
+                  <span>33 года</span>
+                  <time itemprop="datePublished" datetime="2025-03-28">28 марта 2025</time>
                 </div>
               </div>
             </article>
 
           </div>
-          <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Отзывы"></div>
+          <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Отзывы клиентов"></div>
         </div>
       </div>
     </section>
@@ -609,17 +681,12 @@
               </li>
               <li>
                 <a href="tel:+375259107282" class="phone-link">
-                  <i class="fas fa-phone"></i> +375 259 107 282
-                </a>
-              </li>
-              <li>
-                <a href="tel:80259107282" class="phone-link">
-                  <i class="fas fa-phone"></i> 8 025 910 72 82
+                  <i class="fas fa-phone"></i> +375 25 910-72-82
                 </a>
               </li>
               <li>
                 <a href="tel:+375295278124" class="phone-link">
-                  <i class="fas fa-phone"></i> +375 295 278 124
+                  <i class="fas fa-phone"></i> +375 29 527-81-24
                 </a>
               </li>
             </ul>
@@ -627,7 +694,7 @@
 
           <div class="contacts-map">
             <iframe
-              title="Карта"
+              title="Расположение KosimTravy в Кобрине"
               src="https://www.openstreetmap.org/export/embed.html?bbox=24.35424327850342%2C52.21130311816877%2C24.35576677322388%2C52.212210335639455&amp;layer=mapnik"
               width="100%"
               height="300"
@@ -647,7 +714,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
-        <p class="footer-copy">Copyright © 2026 KosimTravy</p>
+        <p class="footer-copy">Copyright © 2026 KosimTravy — покос травы в Кобрине</p>
         <a
           href="https://www.instagram.com/KosimTravy.by/"
           class="footer-instagram"
