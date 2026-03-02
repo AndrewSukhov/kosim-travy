@@ -86,6 +86,41 @@ button { font-family: var(--font); }
 
 .phone-link:hover { color: var(--green-dark); }
 
+/* --- Messenger icons (Viber, WhatsApp, Telegram) --- */
+.phone-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.messenger-links {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.msg-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 15px;
+  text-decoration: none;
+  transition: transform 0.18s, opacity 0.18s;
+  line-height: 1;
+}
+
+.msg-link:hover {
+  transform: scale(1.2);
+  opacity: 0.85;
+}
+
+.msg-viber    { color: #7360F2; }
+.msg-whatsapp { color: #25D366; }
+.msg-telegram { color: #0088CC; }
+
 /* --- Main header --- */
 .main-header {
   background: var(--bg-white);
